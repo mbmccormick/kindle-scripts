@@ -1,0 +1,1 @@
+return storage.weatherPNG, { ['Content-Type'] = 'image/png' }
