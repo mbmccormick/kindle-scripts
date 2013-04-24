@@ -66,4 +66,37 @@ storage.weatherSVG = [[<svg xmlns="http://www.w3.org/2000/svg" height="800" widt
 </svg>
 ]]
 
+storage.alertSVG = [[<svg xmlns="http://www.w3.org/2000/svg" height="800" width="600" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g transform="matrix(4.3353776,0,0,4.3353771,83.065022,72.171481)" id="g3217">
+<g id="g3219">
+<defs id="defs3221">
+<rect y="0" x="0" id="SVGID_1_" width="100" height="100" />
+</defs>
+<clipPath id="clipPath3283">
+<use height="1052.3622" width="744.09448" y="0" x="0" style="overflow:visible" xlink:href="#SVGID_1_" overflow="visible" id="use3285" />
+</clipPath>
+<g clip-path="url(#SVGID_3_)" id="g3227">
+<defs id="defs3229">
+<rect y="0" x="0" id="SVGID_2_" width="100" height="100" />
+</defs>
+<clipPath id="clipPath3290">
+<use height="1052.3622" width="744.09448" y="0" x="0" style="overflow:visible" xlink:href="#SVGID_2_" overflow="visible" id="use3292" />
+</clipPath>
+<path style="fill:#000000" connector-curvature="0" clip-path="url(#SVGID_4_)" d="M 49.608,3.984 C 48.732,4.123 47.986,4.662 47.565,5.413 L 1.975,86.211 c -0.5,0.889 -0.501,2.029 0,2.914 0.508,0.897 1.448,1.485 2.472,1.485 h 91.182 c 1.022,0 1.965,-0.588 2.473,-1.485 0.5,-0.885 0.5,-2.025 0,-2.914 L 52.511,5.413 C 51.926,4.371 50.794,3.794 49.608,3.984 m 0.43,9.294 38.709,69.742 H 11.275 L 50.038,13.278 z" id="path3235" />
+<path style="fill:#000000" connector-curvature="0" clip-path="url(#SVGID_4_)" d="m 54.039,74.536 c 0,2.12 -1.682,3.838 -3.753,3.838 -2.072,0 -3.752,-1.718 -3.752,-3.838 0,-2.119 1.68,-3.838 3.752,-3.838 2.071,0 3.753,1.719 3.753,3.838" id="path3237" />
+<ellipse d="m 54.038999,74.536003 c 0,2.119669 -1.679828,3.838 -3.752,3.838 -2.072173,0 -3.752,-1.718331 -3.752,-3.838 0,-2.119669 1.679827,-3.838 3.752,-3.838 2.072172,0 3.752,1.718331 3.752,3.838 z" style="fill:#000000;stroke:#010101;stroke-width:2;stroke-linecap:round" ry="3.8380001" rx="3.7520001" cy="74.536003" cx="50.286999" clip-path="url(#SVGID_4_)" id="ellipse3239" />
+<path style="fill:#000000" connector-curvature="0" clip-path="url(#SVGID_4_)" d="m 48.437,30.16 h 3.309 c 1.678,0 3.029,2.198 3.029,4.929 L 53.36,57.685 c 0,2.732 -1.351,4.93 -3.028,4.93 h -0.479 c -1.68,0 -3.031,-2.197 -3.031,-4.93 L 45.408,35.089 c 0,-2.731 1.351,-4.929 3.029,-4.929" id="path3241" />
+<path style="fill:#000000;stroke:#010101;stroke-width:1.898;stroke-linecap:round" connector-curvature="0" clip-path="url(#SVGID_4_)" d="m 48.437,30.16 h 3.309 c 1.678,0 3.029,2.198 3.029,4.929 L 53.36,57.685 c 0,2.732 -1.351,4.93 -3.028,4.93 h -0.479 c -1.68,0 -3.031,-2.197 -3.031,-4.93 L 45.408,35.089 c 0,-2.731 1.351,-4.929 3.029,-4.929 z" id="path3243" />
+</g>
+</g>
+</g>
+
+<g font-family="DejaVu Sans">
+<text style="text-anchor:middle;" font-size="35px" y="590" x="300">ALERT_TITLE</text>
+<text style="text-anchor:middle;" font-size="35px" y="640" x="300">in effect until ALERT_EXPIRY</text>
+<text style="text-anchor:middle;" font-size="35px" y="690" x="300">for ALERT_LOCATION</text>
+</g>
+</svg>
+]]
+
 log('Weather script SVG committed to persistent storage.')
