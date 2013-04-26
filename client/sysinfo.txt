@@ -1,0 +1,40 @@
+Kindle 4 (Black, 2012)
+----------------------
+
+Firmware Version:  4.1.0
+Serial Number:		B023 1701 2445 03XE
+Tequila Version:	1.0.6.210
+Root Password:		fionae73f (via http://members.ping.de/~sven/kindle.html)
+Enable USBnet:		;debugon ~usbnetwork
+
+
+[root@kindle /] # eips -i
+
+Fixed framebuffer info
+    id:                  eink_fb    smem_start:       0xD0B8E000
+    smem_len:             966656    type:          PACKED_PIXELS
+    type_aux:                  0    visual:   STATIC_PSEUDOCOLOR
+    xpanstep:                  0    ypanstep:                  0
+    ywrapstep:                 0    line_length:             600
+    mmio_start:       0x00000000    mmio_len:                  0
+    accel:                     0
+
+Variable framebuffer info
+    xres:                    600    yres:                    800
+    xres_virtual:            600    yres_virtual:            800
+    xoffset:                   0    yoffset:                   0
+    bits_per_pixel:            8    grayscale:                 1
+    red.offset:                0    green.offset:              0
+    red.length:                0    green.length:              0
+    red.msb_right:             0    green.msb_right:           0
+    blue.offset:               0    transp.offset:             0
+    blue.length:               0    transp.length:             0
+    blue.msb_right:            0    transp.msb_right:          0
+    nonstd:                    0    activate:                  2
+    width:                    91    height:                  121
+    accel_flags:               0    pixclock:                  0
+    left_margin:               0    right_margin:              0
+    upper_margin:              0    lower_margin:              0
+    hsync_len:                 0    vsync_len:                 0
+    sync:                      0    vmode:                     0
+    rotate:                    0
