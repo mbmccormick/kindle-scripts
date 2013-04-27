@@ -4,6 +4,14 @@ local response = http.request {
 
 local data = json.parse(response.content)
 
+local hours = {}
+	
+local i = 0
+for key, value in pairs(data.hourly.data) do
+	hours[i] = value	
+	i = i + 1
+end
+
 local days = {}
 	
 local i = 0
@@ -42,23 +50,23 @@ end
 	
 local svg = storage.weatherSVG
 
-svg = svg:gsub('ICON_ONE', days[0]['icon'])
-svg = svg:gsub('HIGH_ONE', math.floor(days[0]['temperatureMax']))
-svg = svg:gsub('LOW_ONE', math.floor(days[0]['temperatureMin']))
+svg = svg:gsub('ICON_ONE', data.currently.icon)
+svg = svg:gsub('CURRENT_TEMP', math.floor(data.currently.temperature))
+svg = svg:gsub('CURRENT_PRECIP', math.floor(hours[2]['precipProbability'] * 100))
 
-svg = svg:gsub('ICON_TWO', days[1]['icon'])
-svg = svg:gsub('HIGH_TWO', math.floor(days[1]['temperatureMax']))
-svg = svg:gsub('LOW_TWO', math.floor(days[1]['temperatureMin']))
+svg = svg:gsub('ICON_TWO', days[0]['icon'])
+svg = svg:gsub('HIGH_TWO', math.floor(days[0]['temperatureMax']))
+svg = svg:gsub('LOW_TWO', math.floor(days[0]['temperatureMin']))
 
-svg = svg:gsub('DAY_THREE', os.date('%A', days[2]['time']))
-svg = svg:gsub('ICON_THREE', days[2]['icon'])
-svg = svg:gsub('HIGH_THREE', math.floor(days[2]['temperatureMax']))
-svg = svg:gsub('LOW_THREE', math.floor(days[2]['temperatureMin']))
+svg = svg:gsub('DAY_THREE', os.date('%A', days[1]['time']))
+svg = svg:gsub('ICON_THREE', days[1]['icon'])
+svg = svg:gsub('HIGH_THREE', math.floor(days[1]['temperatureMax']))
+svg = svg:gsub('LOW_THREE', math.floor(days[1]['temperatureMin']))
 
-svg = svg:gsub('DAY_FOUR', os.date('%A', days[3]['time']))
-svg = svg:gsub('ICON_FOUR', days[3]['icon'])
-svg = svg:gsub('HIGH_FOUR', math.floor(days[3]['temperatureMax']))
-svg = svg:gsub('LOW_FOUR', math.floor(days[3]['temperatureMin']))
+svg = svg:gsub('DAY_FOUR', os.date('%A', days[2]['time']))
+svg = svg:gsub('ICON_FOUR', days[2]['icon'])
+svg = svg:gsub('HIGH_FOUR', math.floor(days[2]['temperatureMax']))
+svg = svg:gsub('LOW_FOUR', math.floor(days[2]['temperatureMin']))
 
 return svg, {
 	['Content-Type'] = 'image/svg+xml'

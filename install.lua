@@ -29,15 +29,15 @@ storage.weatherSVG = [[<svg xmlns="http://www.w3.org/2000/svg" height="800" widt
 </g>
 
 <g font-family="DejaVu Sans">
-<text style="text-anchor:middle;" font-size="35px" y="52.256058" x="76.039063">Today</text>
-<text style="text-anchor:middle;" font-size="35px" y="121.70689" x="446.26932">High:</text>
-<text style="text-anchor:end;" font-size="100px" y="209.20592" x="526.72095">HIGH_ONE</text>
+<text style="text-anchor:middle;" font-size="35px" y="52.256058" x="101.039063">Currently</text>
+<text style="text-anchor:middle;" font-size="35px" y="121.70689" x="446.26932">Temp:</text>
+<text style="text-anchor:end;" font-size="100px" y="209.20592" x="526.72095">CURRENT_TEMP</text>
 <text style="text-anchor:middle;" font-size="64px" y="182.48717" x="548.30981">°F</text>
-<text style="text-anchor:middle;" font-size="35px" y="275.13895" x="440.80057">Low:</text>
-<text style="text-anchor:end;" font-size="100px" y="359.8533" x="526.23267">LOW_ONE</text>
-<text style="text-anchor:middle;" font-size="64px" y="333.13455" x="548.30981">°F</text>
+<text style="text-anchor:middle;" font-size="35px" y="275.13895" x="455.80057">Precip:</text>
+<text style="text-anchor:end;" font-size="100px" y="359.8533" x="526.23267">CURRENT_PRECIP</text>
+<text style="text-anchor:middle;" font-size="64px" y="333.13455" x="548.30981">%</text>
 
-<text style="text-anchor:middle;" font-size="32px" y="465.16922" x="102.92969">Tomorrow</text>
+<text style="text-anchor:middle;" font-size="32px" y="465.16922" x="102.92969">Today</text>
 <text style="text-anchor:middle;" font-size="20px" y="635.68347" x="74.958336">High:</text>
 <text style="text-anchor:end;" font-size="58px" y="686.3255" x="116.05887">HIGH_TWO</text>
 <text style="text-anchor:middle;" font-size="37px" y="670.86145" x="134.01662">°F</text>
@@ -45,7 +45,7 @@ storage.weatherSVG = [[<svg xmlns="http://www.w3.org/2000/svg" height="800" widt
 <text style="text-anchor:end;" font-size="58px" y="773.51617" x="116.00232">LOW_TWO</text>
 <text style="text-anchor:middle;" font-size="37px" y="758.05206" x="134.01663">°F</text>
 
-<text style="text-anchor:middle;" font-size="32px" y="466.15359" x="300.3125">DAY_THREE</text>
+<text style="text-anchor:middle;" font-size="32px" y="466.15359" x="300.3125">Tomorrow</text>
 <text style="text-anchor:middle;" font-size="20px" y="635.68347" x="273.95834">High:</text>
 <text style="text-anchor:end;" font-size="58px" y="686.3255" x="314.15454">HIGH_THREE</text>
 <text style="text-anchor:middle;" font-size="37px" y="670.86145" x="333.01663">°F</text>
