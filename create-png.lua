@@ -10,6 +10,8 @@ local request = [[<?xml version="1.0" encoding="utf-8" ?>
   <testMode>true</testMode>
   <width>600</width>
   <height>800</height>
+	<quality>100</quality>
+	<color>3</color>
   <file>
     <fileName>weather.svg</fileName>
     <fileData>
