@@ -38,26 +38,26 @@ storage.weatherSVG = [[<svg xmlns="http://www.w3.org/2000/svg" height="800" widt
 <text style="text-anchor:middle;" font-size="64px" y="333.13455" x="548.30981">%</text>
 
 <text style="text-anchor:middle;" font-size="32px" y="465.16922" x="102.92969">Today</text>
-<text style="text-anchor:middle;" font-size="20px" y="635.68347" x="74.958336">High:</text>
+<text style="text-anchor:middle;" font-size="20px" y="635.68347" x="64.958336">High:</text>
 <text style="text-anchor:end;" font-size="58px" y="686.3255" x="116.05887">HIGH_TWO</text>
 <text style="text-anchor:middle;" font-size="37px" y="670.86145" x="134.01662">°F</text>
-<text style="text-anchor:middle;" font-size="20px" y="724.48578" x="71.906197">Low:</text>
+<text style="text-anchor:middle;" font-size="20px" y="724.48578" x="61.906197">Low:</text>
 <text style="text-anchor:end;" font-size="58px" y="773.51617" x="116.00232">LOW_TWO</text>
 <text style="text-anchor:middle;" font-size="37px" y="758.05206" x="134.01663">°F</text>
 
 <text style="text-anchor:middle;" font-size="32px" y="466.15359" x="300.3125">Tomorrow</text>
-<text style="text-anchor:middle;" font-size="20px" y="635.68347" x="273.95834">High:</text>
+<text style="text-anchor:middle;" font-size="20px" y="635.68347" x="263.95834">High:</text>
 <text style="text-anchor:end;" font-size="58px" y="686.3255" x="314.15454">HIGH_THREE</text>
 <text style="text-anchor:middle;" font-size="37px" y="670.86145" x="333.01663">°F</text>
-<text style="text-anchor:middle;" font-size="20px" y="724.48578" x="270.90619">Low:</text>
+<text style="text-anchor:middle;" font-size="20px" y="724.48578" x="260.90619">Low:</text>
 <text style="text-anchor:end;" font-size="58px" y="773.51617" x="314.08383">LOW_THREE</text>
 <text style="text-anchor:middle;" font-size="37px" y="758.05206" x="333.0166">°F</text>
 
 <text style="text-anchor:middle;" font-size="32px" y="466.15359" x="499.82813">DAY_FOUR</text>
-<text style="text-anchor:middle;" font-size="20px" y="635.68347" x="472.95834">High:</text>
+<text style="text-anchor:middle;" font-size="20px" y="635.68347" x="462.95834">High:</text>
 <text style="text-anchor:end;" font-size="58px" y="686.3255" x="513.30994">HIGH_FOUR</text>
 <text style="text-anchor:middle;" font-size="37px" y="670.86145" x="532.0166">°F</text>
-<text style="text-anchor:middle;" font-size="20px" y="724.48578" x="469.90619">Low:</text>
+<text style="text-anchor:middle;" font-size="20px" y="724.48578" x="459.90619">Low:</text>
 <text style="text-anchor:end;" font-size="58px" y="773.51617" x="513.73383">LOW_FOUR</text>
 <text style="text-anchor:middle;" font-size="37px" y="758.05206" x="532.0166">°F</text>
 </g>
