@@ -52,7 +52,7 @@ local svg = storage.weatherSVG
 
 svg = svg:gsub('ICON_ONE', data.currently.icon)
 svg = svg:gsub('CURRENT_TEMP', math.floor(data.currently.temperature))
-svg = svg:gsub('CURRENT_PRECIP', math.floor(hours[2]['precipProbability'] * 100))
+svg = svg:gsub('CURRENT_PRECIP', math.floor((hours[2]['precipProbability'] or 0) * 100))
 
 svg = svg:gsub('ICON_TWO', days[0]['icon'])
 svg = svg:gsub('HIGH_TWO', math.floor(days[0]['temperatureMax']))
